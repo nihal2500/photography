@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio - Capture Your Moments</title>
+    <meta name="description" content="Professional photography services specializing in portraits, weddings, nature, and events. Book your session today.">
+    <link rel="stylesheet" href="photography.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Lens & Light</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#book">Book Session</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Capturing Life's Beautiful Moments</h1>
+            <p>Professional Photography Services</p>
+            <a href="#book" class="cta-button">Book Your Session</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Our Portfolio</h2>
+        <p class="section-subtitle">Explore our diverse photography categories</p>
+        
+        <div class="category-grid">
+            <div class="category-card">
+                <div class="category-image portrait"></div>
+                <div class="category-info">
+                    <h3>Portrait Photography</h3>
+                    <p>Stunning individual and family portraits that capture personality and emotion</p>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image wedding"></div>
+                <div class="category-info">
+                    <h3>Wedding Photography</h3>
+                    <p>Timeless memories of your special day, beautifully documented</p>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image nature"></div>
+                <div class="category-info">
+                    <h3>Nature & Landscape</h3>
+                    <p>Breathtaking natural scenery and outdoor photography</p>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image events"></div>
+                <div class="category-info">
+                    <h3>Event Photography</h3>
+                    <p>Professional coverage of corporate events, parties, and celebrations</p>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image product"></div>
+                <div class="category-info">
+                    <h3>Product Photography</h3>
+                    <p>High-quality images that showcase your products perfectly</p>
+                </div>
+            </div>
+
+            <div class="category-card">
+                <div class="category-image street"></div>
+                <div class="category-info">
+                    <h3>Street Photography</h3>
+                    <p>Candid moments and urban scenes captured in artistic compositions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Hello! I'm a passionate photographer with over 10 years of experience capturing the world through my lens. My work spans various genres, from intimate portraits to grand landscapes, each telling a unique story.</p>
+                <p>I believe that every moment deserves to be preserved beautifully. Whether it's the joy of a wedding day, the serenity of nature, or the energy of a corporate event, I'm dedicated to creating images that you'll treasure forever.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat">
+                        <h3>1000+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="book" class="booking">
+        <h2>Book Your Session</h2>
+        <p class="section-subtitle">Let's create something beautiful together</p>
+        
+        <form class="booking-form" id="booking-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="session-type">Session Type</label>
+                    <select id="session-type" name="session-type" required>
+                        <option value="">Select a category</option>
+                        <option value="portrait">Portrait Photography</option>
+                        <option value="wedding">Wedding Photography</option>
+                        <option value="nature">Nature & Landscape</option>
+                        <option value="events">Event Photography</option>
+                        <option value="product">Product Photography</option>
+                        <option value="street">Street Photography</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Additional Details</label>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about your vision for this session..."></textarea>
+            </div>
+            
+            <button type="submit" class="submit-button">Send Booking Request</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Lens & Light</h3>
+                <p>Professional Photography Services</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@lensandlight.com</p>
+                <p>Phone: +91 9876543210</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Me</h3>
+                <p>Instagram | Facebook | Twitter</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Lens & Light Photography. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
